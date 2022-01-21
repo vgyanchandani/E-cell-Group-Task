@@ -1,0 +1,359 @@
+
+.contentbody {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentheading {
+  width: 900px;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.contentimgleft {
+  width: 600px;
+  height: 400px;
+}
+
+.contentimgright {
+  width: 400px;
+  height: auto;
+}
+
+.contentimgrightvariant {
+  padding: 0 0 0 30px;
+  font-size: 22px;
+}
+
+.contentimgrightprice {
+  padding: 0 0 0 30px;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.contentimgrightprice span {
+  font-weight: normal;
+  font-size: 18px;
+  color: rgb(172, 172, 172);
+  margin: 0;
+}
+
+.contentimgrightprice p {
+  margin: 0;
+}
+
+.contenttable {
+  padding: 15px;
+  border-radius: 7px;
+}
+
+.contenttablediv {
+  margin-left: 30px;
+  margin-top: 20px;
+  border-radius: 7px;
+  background-color: #d8d8d8;
+  padding: 10px;
+  font-size: 17px;
+}
+
+.contenttabletd {
+  padding-left: 30px;
+}
+
+.contentimgrightemi {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 20px 0 0 30px;
+}
+
+.contentimgrightemi p {
+  padding: 0;
+  margin: 0;
+}
+
+.Specifications {
+  width: 1100px;
+  background-color: white;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #aaaaaa;
+  padding: 10px;
+}
+
+.Specifications div table td {
+  font-size: 20px;
+  width: 400px;
+  padding: 10px 0 20px 30px;
+}
+
+.Specificationsmain {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Specifications div p {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.LatestUpdates {
+  width: 1100px;
+  background-color: white;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #aaaaaa;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.LatestUpdatesmain {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.LatestUpdatesheading {
+  font-size: 25px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.LatestUpdatescontent {
+  font-size: 18px;
+}
+
+.Contentheading {
+  font-size: 25px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.Contentheading2{
+  font-size: 25px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.Contentcontent {
+  font-size: 18px;
+}
+
+/*-------------------- Responsive ----------------------*/
+
+
+@media (max-width: 770px){
+
+  .contentheading {
+    width: auto;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 20px;
+  }
+
+  .contentimgleft {
+    width: auto;
+    height: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .contentimgright {
+    width: 400px;
+    height: auto;
+    padding-top: 20px;
+    padding: 10px;
+  }
+
+  .contentimgrightvariant {
+    font-size: 16px;
+    padding-left: 20px;
+  }
+
+  .contentimgrightvariant p{
+    margin: 0;
+  }
+
+  .contentimgrightprice {
+    padding: 10px 0 0 20px;
+    font-size: 18px;
+  }
+  
+  .contentimgrightprice span {
+    font-size: 14px;
+  }
+
+  .contenttable {
+    padding: 9px;
+    border-radius: 4px;
+  }
+  
+  .contenttablediv {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+    background-color: #d8d8d8;
+    padding: 10px;
+    font-size: 13px;
+  }
+  
+  .contenttabletd {
+    padding-left: 15px;
+  }
+
+  .contentimgrightemi {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 0 0 20px;
+  }
+  
+  .contentimgrightemi p {
+    padding: 0;
+    margin: 0;
+  }
+
+  .Specifications {
+    width: auto;
+    margin: 20px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #aaaaaa;
+    padding: 5px;
+  }
+  
+  .Specifications div table td {
+    font-size: 14px;
+    width: 200px;
+    padding: 5px 0 10px 15px;
+  }
+  
+  .Specificationsmain {
+    width: 100%;
+  }
+  
+  .Specifications div p {
+    font-size: 18px;
+  }
+
+  .LatestUpdates {
+    width: auto;
+    margin : 20px;
+    border-radius: 7px;
+    padding: 7px;
+    padding-left: 10px;
+    box-shadow: 2px 2px 2px #aaaaaa;
+  }
+  
+  .LatestUpdatesmain {
+    width: 100%;
+  }
+  
+  .LatestUpdatesheading {
+    font-size: 18px;
+  }
+  
+  .LatestUpdatescontent {
+    font-size: 14px;
+  }
+
+  .Contentheading {
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .Contentheading2{
+    font-size: 18px;
+    text-align: left;
+    font-weight: 600;
+  }
+  
+  .Contentcontent {
+    font-size: 14px;
+  }
+  
+
+}
+
+footer
+{
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+}
+
+footer .columns
+{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+}
+
+footer .columns h3
+{
+    text-decoration: underline;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+footer .columns li
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+footer .columns li:hover
+{
+    cursor: pointer;
+}
+
+footer .columns .col1
+{
+    align-items: center;
+}
+
+footer .columns .col2
+{
+    align-items: center;
+}
+
+footer .columns .col3
+{
+    align-items: center;
+}
+
+footer .columns .col3 ul li
+{
+    display: inline-flex;
+    padding: 5px;
+    margin: 2px;
+}
+
+footer .columns .fab:hover
+{
+    cursor: pointer;
+    color: rgb(0, 255, 240);
+}

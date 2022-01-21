@@ -2,278 +2,240 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
+    <title>CAR WEBSITE</title>
+    <link rel="stylesheet" href="css/stylehome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Port+Lligat+Slab&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Product Filter</h1>
-            <!-- Search box -->
-            <div class="search-box">
-                <form action="" onsubmit="return false">
-                    <input type="text" id="search" placeholder="Search Product">
-                    <!-- <button id="btn-search">Search</button> -->
-                </form>
-            </div>
-            <div class="filter-box">
-                
-                <a href="#" class="btn active" data-filter="all">All</a>
-                
-                <a href="#" class="btn" data-filter="Lamborghini">Lamborghini</a>
-                
-                <a href="#" class="btn" data-filter="Volvo">Volvo</a>
-                
-                <a href="#" class="btn" data-filter="Hyundai">Hyundai</a>
-                
-                <a href="#" class="btn" data-filter="Toyota">Toyota</a>
-            </div>
-        </div>
-    </header>
     
-    <main>
-        <div class="slide-container">
-        <section class="container" id="store-products">
+    <!-- LANDING PAGE -->
+    <section class="landingPage">
+        <nav id="navbar">
+            <div class="logo">
+                ELITE CARS
+            </div>
+
+            <i class="fa fa-bars" onclick="myFunction()"></i>
+
+            <div class="menu" id="menuItem">
+                <ul>
+                    <li> <a href="#cars">CARS</a> </li>
+                    <li> <a href="#brands">BRANDS</a> </li>
+                    <li> <a href="#about">ABOUT US</a> </li>
+                    <li> <a href="brands.html#counter">REVIEWS</a></li>
+                </ul>
+            </div>
+
+                
+            
+            <div class="row">
+                <ul>
+                    <li class="login"><a href="login.html">LOGIN</a> </li>
+                    <li class="search"><input type="text"> <i class="fas fa-search"></i></li>
+                </ul>
+            </div>
+           
+        </nav>
         
-        <div class="store-product Lamborghini Aventador">
-            
-            <div class="product-details">
-                
-            </div>
-        </div>
-        <div class="store-product Lamborghini Huracan EVO">
-            
-            <div class="product-details">
-                
-            </div>
-        </div>
-        <div class="store-product Lamborghini Urus">
-            
-            <div class="product-details">
-                
-            </div>
-        </div>
-        <div class="store-product ">
-            
-            <div class="product-details">
-                
-            </div>
-        </div>
-        <div class="store-product Volvo XC90">
-            
-            <div class="product-details">
-                
-            </div>
-        </div>
-        <div class="store-product Volvo S60">
-            
-            <div class="product-details">
-                
-            </div>
-        </div>
-        <div class="store-product Volvo S90">
-            
-            <div class="product-details">
-                
-            </div>
-        </div>
-        <div class="store-product Hyundai Elantra">
-            
-            <div class="product-details">
-                
-            </div>
-        </div>
-        <div class="store-product Hyundai Kona">
-            
-            <div class="product-details">
-                
-            </div>
-        </div>
-        <div class="store-product Hyundai Verna">
-           
-            <div class="product-details">
-                
-            </div>
-        </div>
-        <div class="store-product Toyota Prius">
-            
-            <div class="product-details">
-               
-            </div>
-        </div>
-        <div class="store-product Toyota Fortuner">
-            
-            <div class="product-details">
-              
-            </div>
-        </div>
-        <div class="store-product Toyota Vellfire">
-           
-            <div class="product-details">
 
+        <div class="specs">
+            <ul>
+               <li>
+                   <h3>15</h3>
+                   <p>Miles Per Gallon</p>
+               </li>
 
+               <br>
 
+               <li>
+                <h3>495</h3>
+                <p>Horse Power</p>
+                </li>
 
+                <br>
 
+                <li>
+                    <h3>3535 lbs</h3>
+                    <p>Weight</p>
+                </li>
+
+                <br>
+
+                <li>
+                    <h3>$60,900*</h3>
+                    <p>Price</p>
+                </li>
+
+            </ul>
+        </div>
+        <br>
 
     </section>
 
+    <br><br><br><br>
 
+    <!-- CARS -->
+    <section class="cars" id="cars">
+        <h2>CARS</h2>
+        
+            <div class="row1">
 
+                <div class="cimg">
+                    <img src="img/volvo.jpg" alt="">
+                    <a href="Volvo XC90.html"><h4>VOLVO XC90</h4></a>
+                    <p><span>$43,000</span> onwards</p>
+                </div>
 
+                <div class="cimg">
+                    <img src="img/prius.jpg" alt="">
+                    <a href="Toyota Prius.html"><h4>TOYOTA PRIUS </h4></a>
+                    <p><span>$24,525</span> onwards</p>
+                </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-  
-      <div class="counter">
-    <div class="rev-section">
-    
-    <h2 class="title">Our Guests Love Us</h2>
-    <p class="note">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil laboriosam possimus perferendis non error neque.</p>
-    
-    <div class="reviews">
-    
-    <div class="review">
-       <div class="head-review">
-          <img src="https://images.unsplash.com/photo-1488161628813-04466f872be2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80" width="250px">
-       </div>
-       <div class="body-review">
-          <div class="name-review">Pari kakde</div>
-          <div class="place-review">Madhya pradesh</div>
-          <div class="rating">
-             <i class="fas fa-star"></i>
-             <i class="fas fa-star"></i>
-             <i class="fas fa-star"></i>
-             <i class="fas fa-star"></i>
-             <i class="fas fa-star-half"></i>
-          </div>
-          <div class="desc-review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati eligendi suscipit illum officia ex eos.</div>
-       </div>
-    </div>
-    <div class="review">
-       <div class="head-review">
-          <img src="https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" width="250px">
-       </div>
-       <div class="body-review">
-          <div class="name-review">Chaitrali kakde</div>
-          <div class="place-review">Maharashtra</div>
-          <div class="rating">
-             <i class="fas fa-star"></i>
-             <i class="fas fa-star"></i>
-             <i class="fas fa-star"></i>
-             <i class="fas fa-star"></i>
-             <i class="fas fa-star"></i>
-          </div>
-          <div class="desc-review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati eligendi suscipit illum officia ex eos.</div>
-       </div>
-    </div>
-    <div class="review">
-       <div class="head-review">
-          <img src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" width="250px">
-       </div>
-       <div class="body-review">
-          <div class="name-review">Parineet kakde</div>
-          <div class="place-review">Gujrat</div>
-          <div class="rating">
-             <i class="fas fa-star"></i>
-             <i class="fas fa-star"></i>
-             <i class="fas fa-star"></i>
-             <i class="fas fa-star"></i>
-             <i class="fas fa-star-half"></i>
-          </div>
-          <div class="desc-review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati eligendi suscipit illum officia ex eos.</div>
-       </div>
-    </div>
-    
-    </div>
-    
-    </div>
-    
-    
-    </html>
-</section>
-<section class="icons-container">
-  <div class="icons">
-<i class="far fa-grin-alt"></i>
-<div class="info"
-    <h2>happy customers</h2>
-</div>
-</div>
-<div class="icons">
-    <i class="fas fa-car"></i>
-    <div class="info"
-        <h2>150+ cars in stock</h2>
-    </div>
-</div>
-        <div class="icons">
-           <i class="fas fa-user-check"></i>
-            <div class="info"
-                <h3>24 months garantee</h3>
             </div>
+
+            <div class="row2">
+
+                <div class="cimg">
+                    <img src="img/elantra.jpg" alt="">
+                    <a href="Hyundai Elantra.html"><h4>HYUNDAI ELANTRA</h4></a>
+                    <p><span>$19,950</span> onwards</p>
+                </div>
+
+                <div class="cimg">
+                    <img src="img/aventador.jpg" alt="">
+                    <a href="Lamborghini Aventador.html"><h4>LAMBORGHINI AVENTADOR</h4></a>
+                    <p><span>$393,695</span> onwards</p>
+                </div>
+
+            </div>
+
+            <a href="allcars.html" class="button">VIEW ALL</a>
+
+    </section>
+
+    <br><br><br><br>
+
+    <!-- BRANDS -->
+    <section class="brands" id="brands">
+        <h2>BRANDS</h2>
+
+        <div class="row1">
+
+            <div class="bimg">
+                <img src="img/toyota.png" alt="">
+            </div>
+
+            <div class="bimg">
+                <img src="img/hyundai.png" alt="">
+            </div>
+
+            <div class="bimg">
+                <img src="img/lamborghini.jpg" alt="">
+            </div>
+
+            <div class="bimg">
+                <img src="img/volvo logo.jpg" alt="">
+            </div>
+
+
         </div>
-                <div class="icons">
-                  <i class="fas fa-user-plus"></i>
-                    <div class="info"
-                        <h3>500+visitors per day</h3>
-                    </div>
-                    </div>
 
-                </section>
+        <a href="brands.html" class="button">VIEW ALL</a>
 
-            </section>
+    </section>
 
+    <br><br><br><br>
 
+    <section class="converter">
 
+        <div class="currency">
+            <h2>For Currency Conversion</h2>
+            <br>
+            <a href="api.html" class="button">CLICK HERE</a>
+        </div>
+        
+    </section>
 
+    <br><br><br><br>
 
+    <footer class="about" id="about">
+        <div class="columns">
+            <div class="col1">
+                <h3>CATEGORIES</h3>
+                <br>
+                <ul>
+                    <li>Sedan</li>
+                    <li>SUV</li>
+                    <li>Truck</li>
+                    <li>Hatchback</li>
+                    <li>Wagon</li>
+                    <li>Minivan</li>
+                </ul>
+            </div>
 
+            <div class="col2">
+                <h3>INFORMATIONS</h3>
+                <br>
+                <ul>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Terms & Conditions</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
 
-
-
-
-
-
-
-
-
-
-</div>
-</main>
+            <div class="col3">
+                <h3>SOCIAL MEDIA</h3>
+                <br>
+                <ul>
+                    <li><i class="fab fa-facebook-f"></i></li>
+                    <li><i class="fab fa-instagram"></i></li>
+                    <li><i class="fab fa-twitter"></i></li>
+                    <li><i class="fab fa-telegram-plane"></i></li>
+                    <li><i class="fab fa-youtube"></i></li>
+                </ul>
+            </div>
     
+        </div>
 
-    <script src="script.js"></script>
+        <br><br>
+        
+    </footer>
+
+
+    <script type="text/javascript">
+        function myFunction()
+        {
+            var x = document.getElementById("menuItem")
+            if(x.style.display = "none")
+            {
+                x.style.display = "block";
+            }
+
+            else if (x.style.display = "block")
+            {
+                x.style.display = "none";
+            }
+        }
+    </script>
 </body>
 </html>
